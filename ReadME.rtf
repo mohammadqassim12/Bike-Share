@@ -1,0 +1,58 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red34\green45\blue53;\red255\green255\blue255;\red214\green0\blue25;
+\red242\green242\blue242;\red214\green0\blue25;\red242\green242\blue242;}
+{\*\expandedcolortbl;;\cssrgb\c17647\c23137\c27059;\cssrgb\c100000\c100000\c100000;\cssrgb\c87843\c2353\c12157;
+\cssrgb\c96078\c96078\c96078;\cssrgb\c87843\c2353\c12157;\cssrgb\c96078\c96078\c96078;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa120\partightenfactor0
+
+\f0\fs36 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Data:\'a0
+\f1\fs18 \cf4 \cb5 \strokec4 stations.csv
+\f0\fs36 \cf2 \cb3 \strokec2 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs32 \cf2 The\'a0
+\f1\fs18 \cf4 \cb5 \strokec4 stations.csv
+\f0\fs32 \cf2 \cb3 \strokec2 \'a0file contains bike share data in Comma-Separated Values (CSV) format. See below for detailed information on the file format. This file has sample data for testing the functions provided\
+\pard\pardeftab720\sa120\partightenfactor0
+
+\fs43\fsmilli21600 \cf2 \cb3 \strokec2 The Data\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs32 \cf2 \cb3 \strokec2 Each row of this file (
+\f1\fs18 \cf6 \cb7 \outl0\strokewidth0 stations.csv)
+\f0\fs32 \cf2 \cb3 \outl0\strokewidth0 \strokec2  contains the following information about a single bike rental station, in the order listed:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 station ID: the unique identification (ID) number of the station\cb1 \
+\ls1\ilvl0\cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 station name: the name of the station (not necessarily unique)\cb1 \
+\ls1\ilvl0\cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 latitude: the latitude of the station location\cb1 \
+\ls1\ilvl0\cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 longitude: the longitude of the station location\cb1 \
+\ls1\ilvl0\cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 capacity: the total number of bike docks (empty or with bike) at the station\cb1 \
+\ls1\ilvl0\cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 bikes available: the number of bikes currently available to rent at the station\cb1 \
+\ls1\ilvl0\cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 docks available: the number of empty and working docks at the station\cb1 \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf2 \cb3 \strokec2 Note: While the sum of the number of bikes available at a station and the number of docks available at a station will usually equal the station's capacity, this need not be the case. When a bike or a dock is broken, the sum of the two availability numbers will not match the capacity.\
+Another feature of a bike rental station is whether or not it has a kiosk. A kiosk allows a renter to pay for their bike rental using a credit card. Without a kiosk, renters can only pay for their bike rental through an app. Stations that are app-only (that is, that do not have a kiosk) have the string\'a0
+\f1\fs18 \cf4 \cb5 \strokec4 'SMART'
+\f0\fs32 \cf2 \cb3 \strokec2 \'a0somewhere in their station name. (The bike share system could later change\'a0
+\f1\fs18 \cf4 \cb5 \strokec4 'SMART'
+\f0\fs32 \cf2 \cb3 \strokec2 \'a0to some other phrase, so, when coding, you should use the constant\'a0
+\f1\fs18 \cf4 \cb5 \strokec4 NO_KIOSK
+\f0\fs32 \cf2 \cb3 \strokec2 \'a0that refers to the used string instead of the string\'a0
+\f1\fs18 \cf4 \cb5 \strokec4 'SMART'
+\f0\fs32 \cf2 \cb3 \strokec2 , so that if the bike share system changes the string and used a different one your code still works.)\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf2 \
+}
