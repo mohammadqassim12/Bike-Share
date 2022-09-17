@@ -1,4 +1,6 @@
 
+An application that is capable of managing and keeping track of bike rentals across this network. Using real data from Toronto's bike share system (for the sake of testing), the functions will simulate bike rentals and returns as well as keep track of the current state of the network and even provide directions to riders. For more information on the contents of the file, read below:
+
 
 Data: stations.csv
 The stations.csv file contains bike share data in Comma-Separated Values (CSV) format. See below for detailed information on the file format. This file has sample data for testing the functions provided
